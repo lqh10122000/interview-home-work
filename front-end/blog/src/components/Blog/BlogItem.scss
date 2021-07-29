@@ -1,0 +1,40 @@
+.blog-content
+{
+    // background-color: aqua;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+    &-col
+    {
+        border-width: 50px;
+        border-color: black;
+        
+
+        &-title
+        {
+           
+            font-size: 40px;
+            height: 70px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        &-name
+        {
+            font-size: 20px;
+            margin-left: 50px;
+            height: 40px;
+        }
+        &-create_at
+        {
+            font-size: 20px;
+            margin-left: 50px;
+            height: 40px;
+        }
+    }
+}
